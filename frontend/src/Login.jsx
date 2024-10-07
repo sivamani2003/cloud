@@ -1,6 +1,6 @@
 // src/Login.jsx
 import React from "react";
-import { auth, provider, signInWithPopup } from "./firebase";
+import { auth, provider, signInWithPopup } from "./fireabse";
 
 const Login = ({ onLoginSuccess }) => {
   const handleLogin = async () => {
